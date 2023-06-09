@@ -1,9 +1,10 @@
 import React from 'react'
 
-const component1 = props =>(
+const Component1 = (props) =>(
     <div>
-        component1
+        {props.name}
+        {props.age}
     </div>
 )
 
-export default component1
+export default Component1
