@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import Component1 from './components/Component1';
+import Component2 from './components/Component2';
 
 function App() {
   const [state, setState] = useState({ counter: 0 });
@@ -16,6 +17,7 @@ function App() {
       <button onClick={increment}>Increment</button>
     
       <Component1 name="Vivek" age={25} />
+      <Component2/>
 
       <div>
         React
