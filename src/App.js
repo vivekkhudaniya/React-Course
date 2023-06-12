@@ -10,7 +10,6 @@ function App() {
 
   return (
     <div>
-      
     
       {/* <Component1 name="Vivek" age={25} />
       <Component2/>
